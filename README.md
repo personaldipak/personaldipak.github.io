@@ -4,7 +4,7 @@ Dipak Personal V-Card
 Task-list 
 
 - create Side navigation bar 
-- create banner 
+- create banner/home
 - create about 
 - create skills 
 - create resumes
