@@ -3,7 +3,7 @@ Dipak Personal V-Card
 
 Task-list 
 
-- Create Side navigation bar 
+- create Side navigation bar 
 - create banner 
 - create about 
 - create skills 
@@ -13,4 +13,6 @@ Task-list
 - create testimonials 
 
 - responive website for mobile 
+
+DEADLINE: 31ST JUNE 2019 
 
