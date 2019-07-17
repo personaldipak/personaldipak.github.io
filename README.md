@@ -14,5 +14,5 @@ Task-list
 
 - responive website for mobile 
 
-DEADLINE: 31ST JUNE 2019 
+DEADLINE: ??
 
