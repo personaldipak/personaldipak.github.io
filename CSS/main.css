@@ -1,0 +1,23 @@
+a:focus, a:hover, input, textarea, .btn-primary:hover, .nav-sidebar > .active > a, .nav-sidebar > .active > a:focus, .nav-sidebar > .active > a:hover, .nav-sidebar > li > a:hover, .nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus, .copyright p a {
+    color: Black;
+}
+ 
+.nav-sidebar > .active > a, .nav-sidebar > .active > a:focus, .nav-sidebar > .active > a:hover, .nav-sidebar > li > a:hover, .nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus {
+    box-shadow: 15px 0px 0px 0px #07cb79 inset !important;
+}
+
+.nav-sidebar > .active > a, .nav-sidebar > .active > a:focus, .nav-sidebar > .active > a:hover, .nav-sidebar > li > a:hover, .nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus {
+    background: transparent !important;
+}
+
+.section-title h4 {
+    border: 2px solid black;
+}
+
+.profile-img {
+    border-color: black;
+}
+
+::selection, .btn-primary, .hvr-shutter-out-horizontal, .profile-pic:hover .profile-img, .info-icon, .timeline-container .timeline-block .timeline-content h2, .contact-block > i, .gen, .widget-categories ul.category-list li .posts-count, .widget-tags li a:hover, .carousel-indicators .active, .toolbar .btn:focus, .toast {
+    background: black;
+}

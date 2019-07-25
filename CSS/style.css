@@ -1,0 +1,324 @@
+body, p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    color: black;
+}
+
+
+.navigation-menu{
+    display: none;
+}
+
+a {
+    transition: 0.5s ease;
+    text-decoration: none;
+}
+
+.sidebar { 
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    background-color:grey;
+    padding-bottom: 200px;
+    height: 100%;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo a {
+    display: block;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.logo a img {
+    width: 100%;
+}
+
+.nav-sidebar {
+    margin-right: -20px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+    max-height: 100%;
+    overflow-x: hidden;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-sidebar > li > a {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    padding: 10px 15px 10px 30px;
+    border-right: 0px solid transparent;
+}
+
+.copyright p {
+    color: black;
+    font-size: 14px;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 30px;
+    background-color: grey;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track-piece  {
+    background-color:black;
+}
+::-webkit-scrollbar-thumb:vertical {
+    height: 30px;
+}
+
+::selection {
+    color: #ffffff;
+    text-shadow: none;
+}
+
+a.goto-top {
+    position: fixed;
+    bottom: 20px;
+    right: 45px;
+    padding: 0;
+    margin: 0;
+    z-index: 99;
+}
+
+a.goto-top span {
+    font-size: 25px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: black;
+    overflow: hidden;
+    text-align: center; 
+}
+
+.main {
+    padding: 0 !important;
+}
+
+.home {
+    background-size: cover !important;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.home-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.home-content {
+    display: table;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.home-intro {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    padding: 0 60px;
+}
+
+.home-intro h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.home-intro h2, .home-intro span {
+    font-size: 35px;
+}
+
+.home-intro h1, .home-intro h2, .home-intro span {
+    color: black;
+    text-transform: uppercase;
+}
+
+h2 {
+    line-height: 38px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.type-wrap {
+    margin: 30px 0;
+}
+
+.scroll-down {
+    text-align: center;
+    width: 34px;
+    height: 58px;
+    display: inline-block;
+    border-radius: 20px;
+    border: 3px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: 60px;
+    margin-left: -17px;
+    line-height: 50px;
+}
+
+.scroll-down i {
+    font-size: 8px;
+    color: black;
+    display: inline-block;
+    animation-name: fadedown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: scroll;
+}
+
+@keyframes scroll {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(15px);
+    }
+  }
+
+.section {
+    padding: 30px 0;
+}
+
+.container-section {
+    padding: 0 60px;
+}
+
+.section-title {
+    margin-bottom: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.section-title h4 {
+    background: white none repeat scroll 0 0;
+    color: black;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 30px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.section-title:before {
+    border-top: 3px solid black;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.profile-img {
+    display: block;
+    border: 1px solid;
+    padding: 3px;
+}
+
+.profile-pic img {
+    width: 100%
+}
+
+.info {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 27px;
+}
+
+.info-block {
+   margin-bottom: 28px;
+}
+
+.info-icon {
+    height: 57px;
+    width: 57px;
+    float: left;
+}
+
+.info-icon i {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+.info-text {
+    padding-left: 70px;
+    font-size: 17px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.info-text span {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.social-profile {
+    margin-bottom: 30px;
+}
+
+.social-profile span {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.social-profile a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    margin-right: 8px;
+}
+
+.about-information p {
+    margin-bottom: 15px;
+    line-height: 25px;
+    font-size: 20px;
+}
