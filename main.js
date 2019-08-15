@@ -1,9 +1,9 @@
-$('document').ready(function(){
- var typed = new Typed('#typed', {
- stringsElement: '#typed-strings', 
- backSpeed: 100,
- typeSpeed: 60,
- loop: true 
- });
+$('document').ready(function() {
+    var typed = new Typed('#typed', {
+        stringsElement: '#typed-strings',
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true,
+        smartBackspace: true
+    });
 });
-
