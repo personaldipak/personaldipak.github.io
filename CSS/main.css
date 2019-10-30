@@ -11,7 +11,7 @@ textarea,
 .nav-sidebar>.active>a:hover,
 .nav-sidebar>.active>a:focus,
 .copyright p a {
-    color: Black;
+    color: white;
 }
 
 .nav-sidebar>.active>a,
@@ -21,7 +21,7 @@ textarea,
 .nav-sidebar>.active>a,
 .nav-sidebar>.active>a:hover,
 .nav-sidebar>.active>a:focus {
-    box-shadow: 15px 0px 0px 0px #07cb79 inset !important;
+    box-shadow: 12px 0px 0px 0px #07cb79 inset !important;
 }
 
 .nav-sidebar>.active>a,
