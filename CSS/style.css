@@ -280,25 +280,30 @@ section {
 }
 
 .social-profile {
-  margin-bottom: 30px;
+  padding-left: 35%;
+  list-style: none;
+  margin-bottom: 20px;
 }
 
-.social-profile span {
+.social-profile>li{
   display: inline-block;
-  margin-right: 10px;
-  font-size: 16px;
+  margin: 5px;
 }
 
-.social-profile a {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  border: 1px solid black;
-  border-radius: 20px;
+.social-profile>li>a{
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  background-color: black;
   text-align: center;
-  line-height: 30px;
-  color: black;
-  margin-right: 8px;
+  font-size: 13px;
+  border-radius: 50%;
+}
+
+.social-profile>li>a i {
+  line-height: inherit;
 }
 
 .about-information p {
