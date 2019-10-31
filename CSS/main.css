@@ -21,7 +21,7 @@ textarea,
 .nav-sidebar>.active>a,
 .nav-sidebar>.active>a:hover,
 .nav-sidebar>.active>a:focus {
-    box-shadow: 12px 0px 0px 0px #07cb79 inset !important;
+    box-shadow: 10px 0px 0px 0px #07cb79 inset !important;
 }
 
 .nav-sidebar>.active>a,

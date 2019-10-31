@@ -13,3 +13,10 @@ $('.nav li').click(function(){
   	$('.nav li').removeClass('active');
 	$(this).addClass('active');
 })
+
+
+$(document).ready(function(){
+$('.tagBall').cloudTag({
+ballSize:200 // the size of the tag cloud ball
+});
+});
