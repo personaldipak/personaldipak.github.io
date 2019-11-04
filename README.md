@@ -21,10 +21,9 @@ Project is created with:
 * Skills
 * Experience
 * Projects
-* Testimonals 
 
 To-do list: 
-* UI for projects and testimonals section
+* UI for projects section
 * background animation on home section 
 * change fonts style 
 * fully resposnive 
